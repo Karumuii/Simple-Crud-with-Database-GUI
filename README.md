@@ -150,7 +150,3 @@ Connection con = DriverManager.getConnection(
 - `database.sql` uses `DROP TABLE IF EXISTS`, so **re-importing will reset both tables** to the sample data.
 - Passwords in the `login` table are stored as **plain text** for learning purposes only. Do not use this approach in a real application. Hash passwords (for example with BCrypt) instead.
 - Never commit your real database password to a public repository.
-
-## Author
-
-[Karumuii](https://github.com/Karumuii)
