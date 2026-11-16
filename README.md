@@ -150,3 +150,32 @@ Connection con = DriverManager.getConnection(
 - `database.sql` uses `DROP TABLE IF EXISTS`, so **re-importing will reset both tables** to the sample data.
 - Passwords in the `login` table are stored as **plain text** for learning purposes only. Do not use this approach in a real application. Hash passwords (for example with BCrypt) instead.
 - Never commit your real database password to a public repository.
+
+---
+
+## Credits
+
+Created by **Karumuii** as a school project for BSIT.
+
+Built with:
+- Java and Apache NetBeans (Ant)
+- MySQL 8.x and MySQL Workbench
+- MySQL Connector/J 9.6.0
+
+If you reuse or modify this project, please keep this credit.
+
+## Note for Users: Rename Before Use
+
+This project was made as a personal school activity, so the source code
+(class names, package names, window titles, labels, and comments) may contain
+the original author's name and section.
+
+Before using it as your own, refactor these:
+
+1. In NetBeans, right-click the class or package and choose **Refactor → Rename** so references update automatically.
+2. Use **Edit → Find in Projects** (Ctrl+Shift+F) to search for the author's name and section, then replace them.
+3. Check UI text such as form titles, labels, and "About" or header text.
+4. Check comments and file headers.
+5. Rename the project itself (right-click the project → **Rename**) and update `build.xml` and `manifest.mf` if the project or main class name changes.
+
+Please don't submit this project under the original author's name or section.
